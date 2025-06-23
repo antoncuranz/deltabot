@@ -142,7 +142,7 @@ try:
     set_delta_one()
 
     submit_form()
-    sleep(60)
+    sleep(120)
 finally:
     try:
         driver.close()
